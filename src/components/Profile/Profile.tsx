@@ -4,7 +4,7 @@ const Profile = () => {
     return (
         <section className="profile">
                 <div className="image-box">
-                    <img src="https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2022/09/13082637/All-About-Remote-Jobs-for-Programmers-and-Developers-1024x512.jpg"
+                    <img src="./images/write_my_life.png"
                         className="image" />
                 </div>
                 <div className="About">
