@@ -1,6 +1,6 @@
 import './Presentation.scss';
 
-const Enzo_Zalazar_Curriculum = 'https://portfolio-enzo-zalazar.netlify.app/Enzo_Zalazar_Curriculum.pdf';
+const Enzo_Roberto_Zalazar_CV = 'https://portfolio-enzo-zalazar.netlify.app/Enzo_Roberto_Zalazar_CV.pdf';
 
 const Presentation = () => {
     function downloadCV (url : string) : void {
@@ -24,7 +24,7 @@ const Presentation = () => {
                 <p className="greeting">Hi, my name is</p>
                 <h1 className="title">Enzo Zalazar</h1>
                 <p className="description">I'm a front-end developer</p>
-                <button className="download" onClick={() => downloadCV(Enzo_Zalazar_Curriculum)}>Download CV</button>
+                <button className="download" onClick={() => downloadCV(Enzo_Roberto_Zalazar_CV)}>Download CV</button>
             </div>
         </section>
     )
