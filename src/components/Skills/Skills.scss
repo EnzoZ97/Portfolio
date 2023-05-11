@@ -1,0 +1,115 @@
+@use '../../Style/Variables.scss' as v;
+@import '../../Style/Responsive/Responsive.scss';
+
+.skills{
+    padding: 0px 20px 20px 20px;
+    margin: 0px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: v.$main-color;
+    color: white;
+
+
+    .skills-box-content{
+        width: 920px;
+
+        @include laptop{
+            width: 100%;
+        }
+
+
+        .skills-title{
+            font-family: v.$title;
+            letter-spacing: 3px;
+            text-align: center;
+        }
+    
+        .frontend{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            .frontend-title{
+                display: flex;
+                align-items: center;
+                
+
+                .f_title{
+                    font-family: v.$normal-text;
+                    letter-spacing: 2px;
+                    margin-right: 10px;
+                }
+
+                .f_icon{
+                    font-size: 1.4rem;
+                    color: black;
+                }
+
+            }
+    
+            
+    
+            .technologies-frontend{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                
+    
+                .Frontend-item{
+                    font-family: v.$normal-text;
+                    font-weight: bold;
+                    margin: 0px 10px;
+                }
+            }
+    
+        }
+    
+        .Other{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+    
+            .other-title{
+                display: flex;
+                align-items: center;
+
+                .o_title{
+                    font-family: v.$normal-text;
+                    letter-spacing: 2px;
+                    margin-right: 10px;
+                }
+
+                .o_icon{
+                    font-size: 1.2rem;
+                    color: black;
+                }
+
+            }
+    
+            .other-technologies{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+    
+                .other-item{
+                    font-family: v.$normal-text;
+                    font-weight: bold;
+                    margin: 0px 10px;
+                }
+            }
+    
+        }
+    }
+
+   
+}

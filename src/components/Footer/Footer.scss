@@ -1,0 +1,72 @@
+@use '../../Style/Variables.scss' as v;
+@import '../../Style/Responsive/Responsive.scss';
+
+.footer{
+    width: 100%;
+    background-color: v.$main-backgroud-color;
+    color: white;
+
+    
+    .footer-content{
+        width: 920px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+        @include laptop{
+            width: 100%;
+            padding: 0px;
+        }
+
+        .email{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            &:hover{
+                .email-icon{
+                    color: rgb(255, 59, 59);
+                }
+            }
+
+            .email-icon{
+                font-size: 1.8rem;
+                margin-right: 10px
+            }
+
+            .email-text{
+                font-size: 1.1rem;
+                font-family: v.$normal-text;
+                margin-right: 10px
+            }
+        }
+
+        .linkedin{
+            color: white;
+            font-size: 2rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            &:hover{
+                .linkedin-icon{
+                    color: rgb(47, 72, 255);
+                }
+            }
+
+            .linkedin-icon{
+                margin-right: 10px;
+            }
+
+            .linkedin-text{
+                font-size: 1.1rem;
+                font-family: v.$normal-text;
+            }
+        }
+    }
+}
