@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './Main.scss';
 
-import Navbar from '../Navbar/Navbar';
 import Presentation from '../Presentation/Presentation';
 import Profile from '../Profile/Profile';
 import Projects from '../Projects/Projects';
