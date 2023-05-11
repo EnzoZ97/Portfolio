@@ -1,6 +1,6 @@
 import './Presentation.scss';
 
-const Enzo_Zalazar_Curriculum = 'https://portfolio-enzo-zalazar.netlify.app/Curriculum.pdf';
+const Enzo_Zalazar_Curriculum = 'https://portfolio-enzo-zalazar.netlify.app/Enzo_Zalazar_Curriculum.pdf';
 
 const Presentation = () => {
     function downloadCV (url : string) : void {
